@@ -1,0 +1,109 @@
+/* Importing Normalize css */
+/* @import url("normalize.css"); */
+
+/* Importing reset.css*/
+@import url("reset.css");
+  
+html{
+    font-family: sans-serif;
+}
+
+.container{
+   width: 1100px;
+   height: 100vh;
+   margin: 90px auto;
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+}
+.quiz_container{
+    -webkit-box-shadow: 9px -7px 113px -26px rgba(0,0,0,0.63);
+    -moz-box-shadow: 9px -7px 113px -26px rgba(0,0,0,0.63);
+    box-shadow: 9px -7px 113px -26px rgba(0,0,0,0.63);
+    width: 66%;
+}
+.question_number{
+    padding: 40px 0 10px 20px;
+    font-size: 18px;
+}
+.test_finish_btn{
+    height: 30px;
+    width: 100px;
+    font-size: 14px;
+    margin-right: 20px;
+    margin-top: 37px;
+    cursor: pointer;
+}
+.question{
+    padding: 20px;
+    font-size: 16px;
+    line-height: 1.7;
+}
+.flex_input_radio{
+  display: flex;
+  padding: 15px
+}
+.input_option input{
+    display: inline-block;
+}
+.ans{
+    padding-left:10px;
+}
+.result_container{
+    width: 30%;
+    -webkit-box-shadow: 9px -7px 113px -26px rgba(0,0,0,0.63);
+    -moz-box-shadow: 9px -7px 113px -26px rgba(0,0,0,0.63);
+    box-shadow: 9px -7px 113px -26px rgba(0,0,0,0.63);
+}
+.submit_btn{
+    height: 30px;
+    width: 100px;
+    font-size: 14px;
+    margin-top: 20px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+img{
+    width: 100%;
+}
+.score{
+    font-size: 18px;
+    font-family: sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 20px ;
+}
+.finalscore{
+    font-size: 18px;
+    font-family: sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 20px ;
+}
+.highest_score{
+    font-size: 18px;
+    font-family: sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 20px ;
+}
+
+.small_box_container{
+    padding: 10px 5px;
+     width: 90%;
+     margin: 0 auto;
+     margin-top: 40px;
+     border: 1px solid 
+}
+ .small_box{
+     display: flex;
+     justify-content: space-evenly;
+     align-items: center;
+     height: 35px;
+     width: 35px;
+     border: 1px solid gray;
+     background-color: rgb(235, 227, 227);
+     cursor: pointer;
+ }
